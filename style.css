@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+}
+body {
+  font-size: 15pt;
+}
+
+
+
+.container-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  
+  height: 100vh;
+  
+  font-family: 'Ubuntu', sans-serif;
+  color: white;
+  background-image: url('./assets/sts.jpg');
+  background-size: cover;
+}
+.container-form form {
+  display: flex;
+  flex-direction: column;
+  
+  border: silver 2px solid;
+  border-radius: 13px;
+  padding: 1.2rem 2rem 2rem;
+  width: 325px;
+  
+  backdrop-filter: blur(100px);
+  background-color: transparent;
+}
+.container-form form label {
+  padding: 0.7rem 0 0.3rem 0;
+}
+.container-form form input {
+  border: silver solid 2px;
+  border-radius: 5px;
+  padding: 0.4rem;
+  
+  font-family: 'Ubuntu', sans-serif;
+  
+  backdrop-filter: blur(10px);
+  background-color: transparent;
+  color: silver;
+}
+.container-form form input:hover {
+  color: white;
+}
+.container-form form input:focus {
+  transition: 0.4s;
+  border-color: white;
+  outline: none;
+}
+#acess {
+  margin: 1.1rem 0 0.7rem;
+}
+#messErro {
+  font-size: 1rem;
+}
+.info {
+  display: flex;
+  flex-direction: column;
+  font-size: 0.9rem;
+}
+.info a {
+  color: skyblue;
+}
+
+
+
+
+.formLogin {
+  display: none;
+}
+.container-acess {
+  display: none;
+}
+#play {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: black;
+  background-image: url('./assets/tela.jpg');
+}
+.tela {
+  width: 300px;
+  font-family: 'Ubuntu', sans-serif;
+  border: solid silver 2px;
+  backdrop-filter: blur(10px);
+  background-color: transparent;
+  padding: 4rem;
+  border-radius: 20px;
+}
